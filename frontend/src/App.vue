@@ -3,10 +3,15 @@
         <div v-if="authorization">
             <v-layout>
                 <v-app-bar
-                    color="info"
+                    class="bg-blue-grey-lighten-5"
                     prominent
                 >
-                    <v-toolbar-title>CRM Melawai</v-toolbar-title>
+                    <v-toolbar-title><v-img
+                        :width="25"
+                        aspect-ratio="16/9"
+                        cover
+                        src="melawai.ico"
+                    ></v-img>CRM Melawai</v-toolbar-title>
                     <v-spacer></v-spacer>
                     <v-btn 
                         variant="text"
@@ -20,7 +25,7 @@
                 >
                     <v-list>
                         <v-list-item
-                            prepend-avatar="https://ui-avatars.com/api/?length=2&name=Agus%20Suandi"
+                            prepend-avatar="melawai.ico"
                             :title="developer.name"
                             :subtitle="developer.email"
                         ></v-list-item>

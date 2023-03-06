@@ -1,5 +1,5 @@
 <template>
-    <v-sheet class="bg-info pa-16" rounded style="min-height: 100vh; max-height: 100%;">
+    <v-sheet class="bg-grey-lighten-5 pa-16" rounded style="min-height: 100vh; max-height: 100%;">
         <h2 style="text-align: center" class="mt-16">Login CRM Melawai</h2>
         <v-card class="mx-auto px-6 py-8 my-8" max-width="344">
             <v-form ref="form">
